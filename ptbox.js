@@ -73,7 +73,7 @@ window.ptbox = React.createClass({
 
 																	                <div className="accordtitle">
 																	                  <ul style = {{textAlign:'center'}}>
-																	                    <li style={{float:'left',minWidth: '15%',maxWidth: '15%'}}>{value.title}</li>
+																	                    <li style={{float:'left',minWidth: '15%',maxWidth: '20%'}}>{value.title}</li>
 
 																	                    <li style={{color:ref.state.gradeColor[frstindex]}}>
 																	                      <div className="alert progress">
