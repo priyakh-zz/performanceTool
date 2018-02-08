@@ -1,0 +1,1284 @@
+{
+  "mobile": {
+    "pageSize": 1020498,
+    "gpscore": 66,
+    "loadTime": 1.475,
+    "pageSpeed": {
+      "A": [
+        {
+          "description": "Chrome dropped supports for SPDY in Chrome 51, upgrade to HTTP/2 as soon as possible. The page has more users (browsers) supporting HTTP/2 than supports SPDY.",
+          "weight": 1,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "EOL for SPDY in Chrome",
+          "id": "spdy"
+        },
+        {
+          "description": "Using HTTP/2 together with HTTPS is the new best practice. If you use HTTPS (you should), you should also use HTTP/2.",
+          "weight": 2,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Serve your content using HTTP/2",
+          "id": "httpsH2"
+        },
+        {
+          "description": "According to the W3C recommendation you should declare the primary language for each Web page with the lang attribute inside the <html> tag https://www.w3.org/International/questions/qa-html-language-declarations#basics.",
+          "weight": 3,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Declare the language code for your document",
+          "id": "language"
+        },
+        {
+          "description": "A clean URL is good for the user and for SEO. Make them human readable, avoid too long URLs, spaces in the URL, too many request parameters, and never ever have the session id in your URL.",
+          "weight": 2,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Have a good URL format",
+          "id": "url"
+        },
+        {
+          "description": "Use Optimizely with care because it hurts your performance since Javascript is loaded synchronously inside of the head tag, making the first paint happen later. Only turn on Optimzely (= load the javascript) when you run your A/B tests.",
+          "weight": 2,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Only use Optimizely when you need it",
+          "id": "optimizely"
+        },
+        {
+          "description": "The Unicode Standard (UTF-8) covers (almost) all the characters, punctuations, and symbols in the world. Please use that.",
+          "weight": 2,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Declare a charset in your document",
+          "id": "charset"
+        },
+        {
+          "description": "The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.",
+          "weight": 2,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Declare a doctype in your document",
+          "id": "doctype"
+        },
+        {
+          "description": "Use a title to make the page more relevant to search engines.",
+          "weight": 5,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Page title",
+          "id": "pageTitle"
+        },
+        {
+          "description": "A page should always use HTTPS (https://https.cio.gov/everything/). You also need that for HTTP/2! You can get your free SSL/TLC certificate from https://letsencrypt.org/.",
+          "weight": 10,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Serve your content securely",
+          "id": "https"
+        },
+        {
+          "description": "All img tags require an alt attribute. This goes without exception. Everything else is an error. If you have an img tag in your HTML without an alt attribute, add it now. https://www.marcozehe.de/2015/12/14/the-web-accessibility-basics/",
+          "weight": 5,
+          "tags": [
+            "accessibility",
+            "images"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Always use an alt attribute on image tags",
+          "id": "altImages"
+        },
+        {
+          "description": "Most input elements, as well as the select and textarea elements, need an associated label element that states their purpose. The only exception is those that produce a button, like the reset and submit buttons do. Others, be it text, checkbox, password, radio (button), search etc. require a label element to be present. https://www.marcozehe.de/2015/12/14/the-web-accessibility-basics/",
+          "weight": 3,
+          "tags": [
+            "accessibility",
+            "form"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Always set labels on inputs in forms",
+          "id": "labelOnInput"
+        },
+        {
+          "description": "A key feature of mobile browsing is being able to zoom in to read content and out to locate content within a page. http://www.iheni.com/mobile-accessibility-tip-dont-suppress-pinch-zoom/",
+          "weight": 8,
+          "tags": [
+            "accessibility"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Don't suppress pinch zoom",
+          "id": "neverSuppressZoom"
+        },
+        {
+          "description": "Add a caption element to give the table a proper heading or summary. Use th elements to denote column and row headings. Make use of their scope and other attributes to clearly associate what belongs to which. https://www.marcozehe.de/2015/12/14/the-web-accessibility-basics/",
+          "weight": 5,
+          "tags": [
+            "accessibility",
+            "html"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Use caption and th in tables",
+          "id": "table"
+        },
+        {
+          "description": "Landmarks can be article, aside, footer, header, nav or main tag. Adding such landmarks appropriately can help further provide sense to your document and help users more easily navigate it. https://www.marcozehe.de/2015/12/14/the-web-accessibility-basics/",
+          "weight": 5,
+          "tags": [
+            "accessibility",
+            "html"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Structure your content by using landmarks",
+          "id": "landmarks"
+        },
+        {
+          "description": "It is easy to make the favicon big but please avoid that, because every browser will download that. And make sure the cache headers is set for long time for the favicon, it is easy to miss since it's another content type.",
+          "weight": 1,
+          "tags": [
+            "performance",
+            "favicon"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "The favicon should be small and cacheable",
+          "id": "favicon"
+        },
+        {
+          "description": "Use JavaScript snippets that load the JS files asynchronously in order to speed up the user experience and avoid blocking the initial load.",
+          "weight": 5,
+          "tags": [
+            "performance",
+            "js"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Always load third-party JavaScript asynchronously",
+          "id": "thirdPartyAsyncJs"
+        },
+        {
+          "description": "Use keep alive headers & don't close the connection when we have multiple requests to the same domain. There has been some hacks in the past that suggested closing the connection as fast as possible and create new ones, but shouldn't be applicable anymore.",
+          "weight": 5,
+          "tags": [
+            "performance",
+            "server"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Don't close a connection that is used multiple times",
+          "id": "connectionKeepAlive"
+        },
+        {
+          "description": "In the early days of internet inlining CSS was one of the ugliest things you can do. That has changed if you want your page to start rendering fast for your user. Always inline the critical CSS when you use HTTP/1 (avoid doing CSS requests that blocks rendering) and lazy load and cache the rest of the CSS. Using HTTP/2 it is a little more complicated. Does your server support HTTP push? Then maybe that can help. Do you have a lot of users on a slow connection and serving large chunks of HTML? Then it could be better to inline, becasue some servers always prioritize HTML content over CSS so the user needs to download the HTML first, before the CSS is downloaded.",
+          "weight": 7,
+          "tags": [
+            "performance",
+            "css"
+          ],
+          "advice": "The page has both inline CSS and CSS requests even though it uses a HTTP/2-ish connection. Make sure you are using server push for your CSS files (when your server supports push). If you have many users on slow connections, it can be better to only inline the CSS. Run your own tests and check the waterfall graph to see what happens.",
+          "offending": [],
+          "score": 95,
+          "title": "Inline CSS for faster first render on HTTP/1",
+          "id": "inlineCss"
+        },
+        {
+          "description": "Browsers have a limit on how many concurrent requests they can do per domain when using HTTP/1. When you hit the limit, the browser will wait before it can download more assets on that domain. So avoid having to many requests per domain.",
+          "weight": 5,
+          "tags": [
+            "performance",
+            "HTTP/1"
+          ],
+          "advice": "There are almost no limits on HTTP/2 connections with the number of requests, but it is not completely true. It depends on how they are downloaded. Please check your HAR file, does it look OK?",
+          "offending": [],
+          "score": 100,
+          "title": "Avoid too many requests per domain [HTTP/1]",
+          "id": "fewRequestsPerDomain"
+        },
+        {
+          "description": "Make CSS responses small to fit into the magic number TCP window size 14.5 kB. The browser can then download the CSS faster and that will make the page start render earlier.",
+          "weight": 3,
+          "tags": [
+            "performance",
+            "css"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Make each CSS response small",
+          "id": "optimalCssSize"
+        },
+        {
+          "description": "Your page you should never request assets that returns a 400 or 500 error. These requests are never cached, they will be done everytime from the browser. If that happens something is broken, please fix it.",
+          "weight": 7,
+          "tags": [
+            "performance",
+            "server"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Avoid missing and error requests",
+          "id": "responseOk"
+        },
+        {
+          "description": "Loading a specific stylesheet for printing slows down the page, even though it is not used. You can include the print styles inside your other CSS file(s) just by using use @media type print.",
+          "weight": 1,
+          "tags": [
+            "performance",
+            "css"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Do not load specific print stylesheets.",
+          "id": "cssPrint"
+        },
+        {
+          "description": "Delivering a massive amount of CSS to the browser is not the best thing you can do, because it means more work for the browser when parsing the CSS against the HTML and that makes the rendering slower. Try to send only the CSS that is used on that page. And make sure to remove CSS rules when they aren't used anymore.",
+          "weight": 5,
+          "tags": [
+            "performance",
+            "css"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Total CSS size shouldn't be too big",
+          "id": "cssSize"
+        },
+        {
+          "description": "You should never ever redirect the main document, because it will make the page load slower for the user. Well you should redirect the  user if the user tries to use HTTP and there's a HTTPS version of the page. The coach check for that. :)",
+          "weight": 9,
+          "tags": [
+            "performance"
+          ],
+          "advice": "The page redirects from HTTP to HTTPS, that's good!",
+          "offending": [
+            "http://opensenselabs.com/",
+            ""
+          ],
+          "score": 100,
+          "title": "Avoid redirecting the main document",
+          "id": "documentRedirect"
+        },
+        {
+          "description": "Avoid a lot of cookies and other stuff that makes your headers big when you use HTTP/1 because the headers are not compressed. You will send extra data to the user.",
+          "weight": 4,
+          "tags": [
+            "performance",
+            "mobile"
+          ],
+          "advice": "The page uses an HTTP/2 connection and the headers are sent compressed, that's good. The current coach version cannot say if the size is good or not.",
+          "offending": [],
+          "score": 100,
+          "title": "Response headers should't be too big [HTTP/1]",
+          "id": "headerSize"
+        },
+        {
+          "description": "There sites out there that uses multiple version of JQuery on the same page. You shouldn't do that because the user will then download extra amount of data that could be avoided. Cleanup the code and make sure you only use one version.",
+          "weight": 4,
+          "tags": [
+            "jQuery",
+            "performance"
+          ],
+          "advice": "",
+          "offending": [
+            "2.2.3"
+          ],
+          "score": 100,
+          "title": "Avoid using more than one jQuery version per page",
+          "id": "jquery"
+        },
+        {
+          "description": "It's not a great idea to let browsers guess content types (content sniffing), in some cases it can actually be a security risk.",
+          "weight": 0,
+          "tags": [
+            "performance",
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Avoid using incorrect mime types",
+          "id": "mimeTypes"
+        },
+        {
+          "description": "Setting a cache header is good. Setting a long cache header (at least 30 days) is even better beacause then it will stay long in the browser cache. But what do you do if that asset change? Rename it and the browser will pick up the new version.",
+          "weight": 3,
+          "tags": [
+            "performance",
+            "server"
+          ],
+          "advice": "The page has 9 request(s) that have a shorter cache time than 30 days (but still a cache time).",
+          "offending": [
+            "http://opensenselabs.com/",
+            "https://fonts.googleapis.com/css?family=Montserrat:300,400,700",
+            "https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700",
+            "https://fonts.googleapis.com/css?family=Roboto:300,400,500",
+            "https://fonts.googleapis.com/css?family=Bitter",
+            "https://opensenselabs.com/cdn-cgi/scripts/0e574bed/cloudflare-static/email-decode.min.js",
+            "https://static.addtoany.com/menu/page.js",
+            "https://fonts.googleapis.com/css?family=PT+Serif",
+            "https://v2.zopim.com/?4naEx29rUGwTN2n66mQ63thHUmlnpQ7l"
+          ],
+          "score": 91,
+          "title": "Long cache headers is good",
+          "id": "cacheHeadersLong"
+        },
+        {
+          "description": "The critical rendering path is what the browser needs to do to start rendering the page. Every file requested inside of head element will postpone the rendering of the page, because the browser need to do the request. Avoid loading JavaScript synchronously inside of head (you should not need Javascript to render the page), request files from the same domain as the main document (to avoid DNS lookups) and inline CSS or server push for a really fast rendering and short rendering path.",
+          "weight": 10,
+          "tags": [
+            "performance"
+          ],
+          "advice": "Make sure that the server pushes your CSS resources for faster rendering. ",
+          "offending": [],
+          "score": 100,
+          "title": "Avoid slowing down the critical rendering path",
+          "id": "fastRender"
+        }
+      ],
+      "C": [
+        {
+          "description": "A page can be stopped to be loaded in the browser, if a single Javascript, CSS and in some cases a font couldn't be fetched or loading really slow (the white screen of death). That is something you really want to avoid. Never load 3rd party components synchronously inside of the head tag.",
+          "weight": 7,
+          "tags": [
+            "performance",
+            "css",
+            "js"
+          ],
+          "advice": "The page has 6 requests inside of head that can cause a SPOF. Load them asynchronously or move them outside of document head.",
+          "offending": [
+            "https://fonts.googleapis.com/css?family=Roboto:300,400,500",
+            "https://fonts.googleapis.com/css?family=Montserrat:300,400,700",
+            "https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700",
+            "https://fonts.googleapis.com/css?family=Bitter",
+            "https://use.fontawesome.com/f479fb1064.css",
+            "https://amp.cloudflare.com/viewer/rtv/011-4-71/amp-viewer.css"
+          ],
+          "score": 70,
+          "title": "Avoid Frontend single point of failures",
+          "id": "spof"
+        }
+      ],
+      "B": [
+        {
+          "description": "Headings give your document a logical, easy to follow structure. Have you ever wondered how Wikipedia puts together its table of contents for each article? They use the logical heading structure for that, too! The H1 through H6 elements are unambiguous in telling screen readers, search engines and other technologies what the structure of your document is. https://www.marcozehe.de/2015/12/14/the-web-accessibility-basics/",
+          "weight": 4,
+          "tags": [
+            "accessibility",
+            "html"
+          ],
+          "advice": "The page is missing a h5 and has heading(s) with lower priority.",
+          "offending": [],
+          "score": 90,
+          "title": "Use heading tags to structure your page",
+          "id": "headings"
+        },
+        {
+          "description": "Section tags should have at least one heading element as a direct descendant.",
+          "weight": 0,
+          "tags": [
+            "accessibility",
+            "html"
+          ],
+          "advice": "The page is missing heading(s) within a section tag on the page. It happens 1 times.",
+          "offending": [],
+          "score": 90,
+          "title": "Use headings tags within section tags to better structure your page",
+          "id": "sections"
+        },
+        {
+          "description": "In the early days of Internet there where browsers that didn't support compressing (gzipping) text content. They do now. Make sure you compress HTML, JSON, Javacript, CSS and SVG. I will save bytes for the user; making the page load faster and use less bandwith. ",
+          "weight": 8,
+          "tags": [
+            "performance",
+            "server"
+          ],
+          "advice": "The page has 2 request(s) that are served uncompressed. You could save a lot of bytes by sending them compressed instead.",
+          "offending": [
+            "http://opensenselabs.com/",
+            "https://v2.zopim.com/?4naEx29rUGwTN2n66mQ63thHUmlnpQ7l"
+          ],
+          "score": 80,
+          "title": "Always compress text content",
+          "id": "compressAssets"
+        }
+      ],
+      "E": [],
+      "D": [
+        {
+          "description": "Use a page description to make the page more relevant to search engines.",
+          "weight": 5,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "The meta description is too long. It has 158 characters, the recommended max is 155",
+          "offending": [],
+          "score": 50,
+          "title": "Meta description",
+          "id": "metaDescription"
+        },
+        {
+          "description": "A redirect is one extra step for the user to download the asset. Avoid that if you want to be fast. Redirects are even more showstoppers on mobile.",
+          "weight": 2,
+          "tags": [
+            "performance"
+          ],
+          "advice": "The page has 4 redirect(s). 4 request(s) are from other domains, it could be 3rd-party assets that do redirects that they really don't need :(",
+          "offending": [
+            "https://v2.zopim.com/?4naEx29rUGwTN2n66mQ63thHUmlnpQ7l",
+            "https://www.google-analytics.com/r/collect?v=1&_v=j66&aip=1&a=971308947&t=pageview&_s=1&dl=https%3A%2F%2Fopensenselabs.com%2F&ul=en-us&de=UTF-8&dt=Drupal%20development%20company%20%7C%20OpenSense%20Labs&sd=16-bit&sr=1500x1200&vp=347x569&je=0&_u=YEBAAEAB~&jid=127936641&gjid=1850902846&cid=2146181084.1511206622&tid=UA-87116324-1&_gid=505264348.1511206622&_r=1&z=2062432923",
+            "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-87116324-1&cid=2146181084.1511206622&jid=127936641&_gid=505264348.1511206622&gjid=1850902846&_v=j66&z=2062432923",
+            "https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-87116324-1&cid=2146181084.1511206622&jid=127936641&_v=j66&z=2062432923"
+          ],
+          "score": 60,
+          "title": "Avoid doing redirects",
+          "id": "assetsRedirects"
+        },
+        {
+          "description": "Avoid having too many large images on page. The images will not affect the first paint of the page but it will eat bandwith for the user.",
+          "weight": 5,
+          "tags": [
+            "performance",
+            "image"
+          ],
+          "advice": "The page total image size is 1.6 MB. It's really big. Are the page using the right format for the images? Are they compressed as good as they can? Make them smaller by using ImageOptim.",
+          "offending": [],
+          "score": 50,
+          "title": "Total image size shouldn't be too big",
+          "id": "imageSize"
+        }
+      ],
+      "F": [
+        {
+          "description": "How many fonts do you need on a page for the user to get the message? Fonts can slow down the rendering of content, try to avoid loading too many of them because worst case it can make the text invisible until they are loaded, best case they will flicker the text content when they arrive.",
+          "weight": 2,
+          "tags": [
+            "performance",
+            "font"
+          ],
+          "advice": "The page has 7 font requests. Do you really need them? What value does the fonts give the user?",
+          "offending": [
+            "https://fonts.gstatic.com/s/montserrat/v12/IQHow_FEYlDC4Gzy_m8fcnbFhgvWbfSbdVg11QabG8w.woff",
+            "https://fonts.gstatic.com/s/roboto/v18/Hgo13k-tfSpn0qi1SFdUfbO3LdcAZYWl9Si6vvxL-qU.woff",
+            "https://fonts.gstatic.com/s/montserrat/v12/zhcz-_WihjSQC0oHJ9TCYL3hpw3pgy2gAi-Ip7WPMi0.woff",
+            "https://fonts.gstatic.com/s/roboto/v18/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff",
+            "https://fonts.gstatic.com/s/roboto/v18/RxZJdnzeo3R5zSexge8UUbO3LdcAZYWl9Si6vvxL-qU.woff",
+            "https://fonts.gstatic.com/s/montserrat/v12/IVeH6A3MiFyaSEiudUMXE4o3ZslTYfJv0R05CazkwN8.woff",
+            "https://use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff2"
+          ],
+          "score": 30,
+          "title": "Avoid too many fonts",
+          "id": "fewFonts"
+        },
+        {
+          "description": "Avoid having pages that have transfer size over the wire of more than 2 MB (desktop) and 1 MB (mobile) because that is really big and will hurt performance and will make the page expensive for the user if she/he pays for the bandwith.",
+          "weight": 3,
+          "tags": [
+            "performance",
+            "mobile"
+          ],
+          "advice": "The page total transfer size is 2.5 MB, which is more than the coach limit of 1 MB. That is really big and you need to make it smaller.",
+          "offending": [],
+          "score": 0,
+          "title": "Total page size shouldn't be too big",
+          "id": "pageSize"
+        },
+        {
+          "description": "If you set private headers on content, that means that the content are specific for that user. Static content should be able to be cached & used by everyone, avoid setting the cache header to private.",
+          "weight": 5,
+          "tags": [
+            "performance",
+            "server"
+          ],
+          "advice": "The page has 7 request(s) with private headers. Make sure that the assets really should be private and only used by one user. Else make it cacheable for everyone.",
+          "offending": [
+            "https://fonts.googleapis.com/css?family=Montserrat:300,400,700",
+            "https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700",
+            "https://fonts.googleapis.com/css?family=Roboto:300,400,500",
+            "https://fonts.googleapis.com/css?family=Bitter",
+            "https://use.fontawesome.com/f479fb1064.js",
+            "https://fonts.googleapis.com/css?family=PT+Serif",
+            "https://use.fontawesome.com/f479fb1064.css"
+          ],
+          "score": 30,
+          "title": "Don't use private headers on static content",
+          "id": "privateAssets"
+        },
+        {
+          "description": "The easiest way to make your page fast is to avoid doing requests to the server. Setting a cache header on your server response will tell the browser that it doesn't need to downloand the asset again during the configured cache time! Always try to set a cache time if the content doesn't change for every request.",
+          "weight": 30,
+          "tags": [
+            "performance",
+            "server"
+          ],
+          "advice": "The page has 10 request(s) that are missing a cache time. Configure a cache time so the browser doesn't need to download them every time. It will save 4.6 kB the next access.",
+          "offending": [
+            "https://use.fontawesome.com/f479fb1064.js",
+            "https://use.fontawesome.com/f479fb1064.css",
+            "https://discovery.amp.cloudflare.com/v1/ampUrls:batchGet?key=b3BlbnNlbnNlbGFicy5jb206M2MwZGRhMzU5YTYzNzIxZA%3D%3D",
+            "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-87116324-1&cid=2146181084.1511206622&jid=127936641&_gid=505264348.1511206622&gjid=1850902846&_v=j66&z=2062432923",
+            "https://discovery.amp.cloudflare.com/v1/ampUrls:batchGet?key=b3BlbnNlbnNlbGFicy5jb206M2MwZGRhMzU5YTYzNzIxZA%3D%3D",
+            "https://ie18.zopim.com/s/W/ws/SKPek11vbdLMwwQI/c/1511206622225",
+            "https://ie04.zopim.com/s/W/ws/XezWamIvCU5VmhVU/c/1511206622329",
+            "https://ie18.zopim.com/s/W/xdds/SKPek11vbdLMwwQI/c/1511206622364",
+            "https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-87116324-1&cid=2146181084.1511206622&jid=127936641&_v=j66&z=2062432923",
+            "https://www.google.ae/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-87116324-1&cid=2146181084.1511206622&jid=127936641&_v=j66&z=2062432923&slf_rd=1&random=23517626"
+          ],
+          "score": 0,
+          "title": "Avoid extra requests by setting cache headers",
+          "id": "cacheHeaders"
+        },
+        {
+          "description": "A lot of JavaScript often means you are downloading more than you need. How complex is the page and what can the user do on the page? Do you use multiple Javascript frameworks?",
+          "weight": 5,
+          "tags": [
+            "performance",
+            "javascript"
+          ],
+          "advice": "The total JavaScript transfer size is 642.2 kB. This is too much. You need to remove as much as possible.",
+          "offending": [],
+          "score": 0,
+          "title": "Total JavaScript size shouldn't be too big",
+          "id": "javascriptSize"
+        },
+        {
+          "description": "It's easy to scale images in the browser and make sure they look good in different devices, however that is bad for performance! Scaling images in the browser takes extra CPU time and will hurt performance on mobile. And the user will download download extra kilobytes (sometime megabytes) of data that could be avoided. Don't do that, make sure you create multiple version of the same image serverside and serve the appropriate one.",
+          "weight": 5,
+          "tags": [
+            "performance",
+            "image"
+          ],
+          "advice": "The page has 13 image(s) that are scaled more than 100 pixels. It would be better if those images are sent so the browser don't need to scale them.",
+          "offending": [
+            "https://opensenselabs.com/themes/opensenselabs/images/logo.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/iit.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/techtud.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/tuv.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/globe.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/launcher.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/line.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/meter.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/getintouch.jpg",
+            "https://opensenselabs.com/themes/opensenselabs/images/explorebanner.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/line.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/map-front.jpg",
+            "https://opensenselabs.com/themes/opensenselabs/images/line.png"
+          ],
+          "score": 0,
+          "title": "Don't scale images in the browser",
+          "id": "avoidScalingImages"
+        }
+      ]
+    },
+    "timings": {
+      "timeToLastByte": 441,
+      "redirects": 4,
+      "timeToFirstByte": 422,
+      "redirectsTime": 260,
+      "timeBackend": 44
+    },
+    "video": "https://ipfs.io/ipfs/QmVLkTfTG6uANaoeHmMqLbJiGMv8sQxZMH8gCBkMXW4nsH",
+    "performance": {
+      "grade": "C",
+      "score": 61
+    },
+    "requests": 101
+  },
+  "desktop": {
+    "pageSize": 824555,
+    "gpscore": 76,
+    "loadTime": 0.894,
+    "pageSpeed": {
+      "A": [
+        {
+          "description": "Chrome dropped supports for SPDY in Chrome 51, upgrade to HTTP/2 as soon as possible. The page has more users (browsers) supporting HTTP/2 than supports SPDY.",
+          "weight": 1,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "EOL for SPDY in Chrome",
+          "id": "spdy"
+        },
+        {
+          "description": "Using HTTP/2 together with HTTPS is the new best practice. If you use HTTPS (you should), you should also use HTTP/2.",
+          "weight": 2,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Serve your content using HTTP/2",
+          "id": "httpsH2"
+        },
+        {
+          "description": "According to the W3C recommendation you should declare the primary language for each Web page with the lang attribute inside the <html> tag https://www.w3.org/International/questions/qa-html-language-declarations#basics.",
+          "weight": 3,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Declare the language code for your document",
+          "id": "language"
+        },
+        {
+          "description": "A clean URL is good for the user and for SEO. Make them human readable, avoid too long URLs, spaces in the URL, too many request parameters, and never ever have the session id in your URL.",
+          "weight": 2,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Have a good URL format",
+          "id": "url"
+        },
+        {
+          "description": "Use Optimizely with care because it hurts your performance since Javascript is loaded synchronously inside of the head tag, making the first paint happen later. Only turn on Optimzely (= load the javascript) when you run your A/B tests.",
+          "weight": 2,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Only use Optimizely when you need it",
+          "id": "optimizely"
+        },
+        {
+          "description": "The Unicode Standard (UTF-8) covers (almost) all the characters, punctuations, and symbols in the world. Please use that.",
+          "weight": 2,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Declare a charset in your document",
+          "id": "charset"
+        },
+        {
+          "description": "The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.",
+          "weight": 2,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Declare a doctype in your document",
+          "id": "doctype"
+        },
+        {
+          "description": "Use a title to make the page more relevant to search engines.",
+          "weight": 5,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Page title",
+          "id": "pageTitle"
+        },
+        {
+          "description": "A page should always use HTTPS (https://https.cio.gov/everything/). You also need that for HTTP/2! You can get your free SSL/TLC certificate from https://letsencrypt.org/.",
+          "weight": 10,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Serve your content securely",
+          "id": "https"
+        },
+        {
+          "description": "All img tags require an alt attribute. This goes without exception. Everything else is an error. If you have an img tag in your HTML without an alt attribute, add it now. https://www.marcozehe.de/2015/12/14/the-web-accessibility-basics/",
+          "weight": 5,
+          "tags": [
+            "accessibility",
+            "images"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Always use an alt attribute on image tags",
+          "id": "altImages"
+        },
+        {
+          "description": "Most input elements, as well as the select and textarea elements, need an associated label element that states their purpose. The only exception is those that produce a button, like the reset and submit buttons do. Others, be it text, checkbox, password, radio (button), search etc. require a label element to be present. https://www.marcozehe.de/2015/12/14/the-web-accessibility-basics/",
+          "weight": 3,
+          "tags": [
+            "accessibility",
+            "form"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Always set labels on inputs in forms",
+          "id": "labelOnInput"
+        },
+        {
+          "description": "A key feature of mobile browsing is being able to zoom in to read content and out to locate content within a page. http://www.iheni.com/mobile-accessibility-tip-dont-suppress-pinch-zoom/",
+          "weight": 8,
+          "tags": [
+            "accessibility"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Don't suppress pinch zoom",
+          "id": "neverSuppressZoom"
+        },
+        {
+          "description": "Add a caption element to give the table a proper heading or summary. Use th elements to denote column and row headings. Make use of their scope and other attributes to clearly associate what belongs to which. https://www.marcozehe.de/2015/12/14/the-web-accessibility-basics/",
+          "weight": 5,
+          "tags": [
+            "accessibility",
+            "html"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Use caption and th in tables",
+          "id": "table"
+        },
+        {
+          "description": "Landmarks can be article, aside, footer, header, nav or main tag. Adding such landmarks appropriately can help further provide sense to your document and help users more easily navigate it. https://www.marcozehe.de/2015/12/14/the-web-accessibility-basics/",
+          "weight": 5,
+          "tags": [
+            "accessibility",
+            "html"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Structure your content by using landmarks",
+          "id": "landmarks"
+        },
+        {
+          "description": "Avoid having pages that have transfer size over the wire of more than 2 MB (desktop) and 1 MB (mobile) because that is really big and will hurt performance and will make the page expensive for the user if she/he pays for the bandwith.",
+          "weight": 3,
+          "tags": [
+            "performance",
+            "mobile"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Total page size shouldn't be too big",
+          "id": "pageSize"
+        },
+        {
+          "description": "It is easy to make the favicon big but please avoid that, because every browser will download that. And make sure the cache headers is set for long time for the favicon, it is easy to miss since it's another content type.",
+          "weight": 1,
+          "tags": [
+            "performance",
+            "favicon"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "The favicon should be small and cacheable",
+          "id": "favicon"
+        },
+        {
+          "description": "Use JavaScript snippets that load the JS files asynchronously in order to speed up the user experience and avoid blocking the initial load.",
+          "weight": 5,
+          "tags": [
+            "performance",
+            "js"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Always load third-party JavaScript asynchronously",
+          "id": "thirdPartyAsyncJs"
+        },
+        {
+          "description": "Use keep alive headers & don't close the connection when we have multiple requests to the same domain. There has been some hacks in the past that suggested closing the connection as fast as possible and create new ones, but shouldn't be applicable anymore.",
+          "weight": 5,
+          "tags": [
+            "performance",
+            "server"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Don't close a connection that is used multiple times",
+          "id": "connectionKeepAlive"
+        },
+        {
+          "description": "In the early days of internet inlining CSS was one of the ugliest things you can do. That has changed if you want your page to start rendering fast for your user. Always inline the critical CSS when you use HTTP/1 (avoid doing CSS requests that blocks rendering) and lazy load and cache the rest of the CSS. Using HTTP/2 it is a little more complicated. Does your server support HTTP push? Then maybe that can help. Do you have a lot of users on a slow connection and serving large chunks of HTML? Then it could be better to inline, becasue some servers always prioritize HTML content over CSS so the user needs to download the HTML first, before the CSS is downloaded.",
+          "weight": 7,
+          "tags": [
+            "performance",
+            "css"
+          ],
+          "advice": "The page has both inline CSS and CSS requests even though it uses a HTTP/2-ish connection. Make sure you are using server push for your CSS files (when your server supports push). If you have many users on slow connections, it can be better to only inline the CSS. Run your own tests and check the waterfall graph to see what happens.",
+          "offending": [],
+          "score": 95,
+          "title": "Inline CSS for faster first render on HTTP/1",
+          "id": "inlineCss"
+        },
+        {
+          "description": "Browsers have a limit on how many concurrent requests they can do per domain when using HTTP/1. When you hit the limit, the browser will wait before it can download more assets on that domain. So avoid having to many requests per domain.",
+          "weight": 5,
+          "tags": [
+            "performance",
+            "HTTP/1"
+          ],
+          "advice": "There are almost no limits on HTTP/2 connections with the number of requests, but it is not completely true. It depends on how they are downloaded. Please check your HAR file, does it look OK?",
+          "offending": [],
+          "score": 100,
+          "title": "Avoid too many requests per domain [HTTP/1]",
+          "id": "fewRequestsPerDomain"
+        },
+        {
+          "description": "Make CSS responses small to fit into the magic number TCP window size 14.5 kB. The browser can then download the CSS faster and that will make the page start render earlier.",
+          "weight": 3,
+          "tags": [
+            "performance",
+            "css"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Make each CSS response small",
+          "id": "optimalCssSize"
+        },
+        {
+          "description": "Your page you should never request assets that returns a 400 or 500 error. These requests are never cached, they will be done everytime from the browser. If that happens something is broken, please fix it.",
+          "weight": 7,
+          "tags": [
+            "performance",
+            "server"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Avoid missing and error requests",
+          "id": "responseOk"
+        },
+        {
+          "description": "Loading a specific stylesheet for printing slows down the page, even though it is not used. You can include the print styles inside your other CSS file(s) just by using use @media type print.",
+          "weight": 1,
+          "tags": [
+            "performance",
+            "css"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Do not load specific print stylesheets.",
+          "id": "cssPrint"
+        },
+        {
+          "description": "Delivering a massive amount of CSS to the browser is not the best thing you can do, because it means more work for the browser when parsing the CSS against the HTML and that makes the rendering slower. Try to send only the CSS that is used on that page. And make sure to remove CSS rules when they aren't used anymore.",
+          "weight": 5,
+          "tags": [
+            "performance",
+            "css"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Total CSS size shouldn't be too big",
+          "id": "cssSize"
+        },
+        {
+          "description": "You should never ever redirect the main document, because it will make the page load slower for the user. Well you should redirect the  user if the user tries to use HTTP and there's a HTTPS version of the page. The coach check for that. :)",
+          "weight": 9,
+          "tags": [
+            "performance"
+          ],
+          "advice": "The page redirects from HTTP to HTTPS, that's good!",
+          "offending": [
+            "http://opensenselabs.com/",
+            ""
+          ],
+          "score": 100,
+          "title": "Avoid redirecting the main document",
+          "id": "documentRedirect"
+        },
+        {
+          "description": "Avoid a lot of cookies and other stuff that makes your headers big when you use HTTP/1 because the headers are not compressed. You will send extra data to the user.",
+          "weight": 4,
+          "tags": [
+            "performance",
+            "mobile"
+          ],
+          "advice": "The page uses an HTTP/2 connection and the headers are sent compressed, that's good. The current coach version cannot say if the size is good or not.",
+          "offending": [],
+          "score": 100,
+          "title": "Response headers should't be too big [HTTP/1]",
+          "id": "headerSize"
+        },
+        {
+          "description": "There sites out there that uses multiple version of JQuery on the same page. You shouldn't do that because the user will then download extra amount of data that could be avoided. Cleanup the code and make sure you only use one version.",
+          "weight": 4,
+          "tags": [
+            "jQuery",
+            "performance"
+          ],
+          "advice": "",
+          "offending": [
+            "2.2.3"
+          ],
+          "score": 100,
+          "title": "Avoid using more than one jQuery version per page",
+          "id": "jquery"
+        },
+        {
+          "description": "It's not a great idea to let browsers guess content types (content sniffing), in some cases it can actually be a security risk.",
+          "weight": 0,
+          "tags": [
+            "performance",
+            "bestpractice"
+          ],
+          "advice": "The page has 4 misconfigured mime type(s). ",
+          "offending": [
+            "https://opensenselabs.com/cdn-cgi/pe/bag2?r[]=https%3A%2F%2Fopensenselabs.com%2Fcore%2Fassets%2Fvendor%2Fdomready%2Fready.min.js%3Fv%3D1.0.8&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_dxIVcwvQ00owLGoUGPTfRYXU-T5rnj8Xi0cXfb3Kn58.a23g1Nt4dtEYOj7bR-vTu7-T8VP13humZFBJNIYoEJo.js%3Fv%3D2.2.3&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_a5UiM5riCCx8GQk4IPly81KWzPcsHnVhzndmZfqUaTw.Gv8r_Bxx6CmHFGQYaai15VPi0AwYP6eqRFQTpmtn-Rc.js%3Fv%3D2.1.1&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_Hpe5jrMuKXrV4HSTMApXJsNBxraAgcHUrTjxkwWKqy8.-UuF-xCA7ba_NpIGThRxcI7T8a1fU-G5nwTajazUhyQ.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fcore%2Fmisc%2Fdrupal.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fstatic.addtoany.com%2Fmenu%2Fpage.js&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_ykLxvKp5rvcarVrf36wQkum3dKR3rl-G_-w1QumySTw.djYiKZ3lFGcF7cVSE5Ey8bmg4Vg4jzPCY0-DGepUVhA.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_ILBo1Tem8JjMEYfGzuugbThKxy0fvPnkdn9LT31E47s.XfBd99B6gO9TldRrpVEFycLk4iPhBX7-tM-r6xUaGJ0.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_HtAPNpzOA6_7Opcq5y-f-In2b_3tvKdEaP5XRdUrRv8.orE03LSc9KVys7WmCWaOa5LauIvfUpJeaiKbggQBB-8.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fthemes%2Fzurb_foundation%2Fjs%2Ffoundation_init.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_q99fsgffpLlGLe8O4cbgr0QgpYQDzj2p7qc7CgJ2ERE.tB_IVQ3KA9g7Rdo8J-6xYeRkgoC6ZJuKIuvrvBQXHdQ.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_cEsdQyWdiDRFAM96frCFynr64SohHEbM9Knix9aif4w.3KQHXAWaKTVNul2A0P-XIj9t1ClFg_zzucNMxAB_izk.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fthemes%2Fopensenselabs%2Fjs%2Fclassie.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fthemes%2Fopensenselabs%2Fjs%2FSTARTER.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fthemes%2Fopensenselabs%2Fjs%2Fstickkit.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fuse.fontawesome.com%2Ff479fb1064.js",
+            "https://opensenselabs.com/cdn-cgi/pe/bag2?r[]=https%3A%2F%2Fwww.google-analytics.com%2Fanalytics.js",
+            "https://opensenselabs.com/cdn-cgi/pe/bag2?r[]=https%3A%2F%2Fv2.zopim.com%2F%3F4naEx29rUGwTN2n66mQ63thHUmlnpQ7l",
+            "https://opensenselabs.com/cdn-cgi/pe/bag2?r[]=https%3A%2F%2Fopensenselabs.com%2Fthemes%2Fzurb_foundation%2Fjs%2Falert_close.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_nywRN98BlaSHrpeAHOwlTQCGFXBgZfm1PwFQmjcJxLY.gm6-ukRq-z9E2GooagUHHnWhMpsVSZvlrff3Z5xnWXI.js%3Fv%3D8.2.7"
+          ],
+          "score": 96,
+          "title": "Avoid using incorrect mime types",
+          "id": "mimeTypes"
+        },
+        {
+          "description": "Setting a cache header is good. Setting a long cache header (at least 30 days) is even better beacause then it will stay long in the browser cache. But what do you do if that asset change? Rename it and the browser will pick up the new version.",
+          "weight": 3,
+          "tags": [
+            "performance",
+            "server"
+          ],
+          "advice": "The page has 8 request(s) that have a shorter cache time than 30 days (but still a cache time).",
+          "offending": [
+            "http://opensenselabs.com/",
+            "https://fonts.googleapis.com/css?family=Roboto:300,400,500",
+            "https://fonts.googleapis.com/css?family=Montserrat:300,400,700",
+            "https://fonts.googleapis.com/css?family=Bitter",
+            "https://ajax.cloudflare.com/cdn-cgi/scripts/0e574bed/cloudflare-static/rocket.min.js",
+            "https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700",
+            "https://opensenselabs.com/cdn-cgi/scripts/0e574bed/cloudflare-static/email-decode.min.js",
+            "https://fonts.googleapis.com/css?family=PT+Serif"
+          ],
+          "score": 92,
+          "title": "Long cache headers is good",
+          "id": "cacheHeadersLong"
+        },
+        {
+          "description": "A lot of JavaScript often means you are downloading more than you need. How complex is the page and what can the user do on the page? Do you use multiple Javascript frameworks?",
+          "weight": 5,
+          "tags": [
+            "performance",
+            "javascript"
+          ],
+          "advice": "",
+          "offending": [],
+          "score": 100,
+          "title": "Total JavaScript size shouldn't be too big",
+          "id": "javascriptSize"
+        }
+      ],
+      "C": [
+        {
+          "description": "A page can be stopped to be loaded in the browser, if a single Javascript, CSS and in some cases a font couldn't be fetched or loading really slow (the white screen of death). That is something you really want to avoid. Never load 3rd party components synchronously inside of the head tag.",
+          "weight": 7,
+          "tags": [
+            "performance",
+            "css",
+            "js"
+          ],
+          "advice": "The page has 6 requests inside of head that can cause a SPOF. Load them asynchronously or move them outside of document head.",
+          "offending": [
+            "https://fonts.googleapis.com/css?family=Roboto:300,400,500",
+            "https://fonts.googleapis.com/css?family=Montserrat:300,400,700",
+            "https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700",
+            "https://fonts.googleapis.com/css?family=Bitter",
+            "https://use.fontawesome.com/f479fb1064.css",
+            "https://ajax.cloudflare.com/cdn-cgi/scripts/0e574bed/cloudflare-static/rocket.min.js"
+          ],
+          "score": 70,
+          "title": "Avoid Frontend single point of failures",
+          "id": "spof"
+        },
+        {
+          "description": "A redirect is one extra step for the user to download the asset. Avoid that if you want to be fast. Redirects are even more showstoppers on mobile.",
+          "weight": 2,
+          "tags": [
+            "performance"
+          ],
+          "advice": "The page has 3 redirect(s). 3 request(s) are from other domains, it could be 3rd-party assets that do redirects that they really don't need :(",
+          "offending": [
+            "https://www.google-analytics.com/r/collect?v=1&_v=j66&aip=1&a=1888956764&t=pageview&_s=1&dl=https%3A%2F%2Fopensenselabs.com%2F&ul=en-us&de=UTF-8&dt=Drupal%20development%20company%20%7C%20OpenSense%20Labs&sd=16-bit&sr=1500x1200&vp=1187x889&je=0&_u=YEBAAEAB~&jid=1071527764&gjid=549123560&cid=729910133.1511206600&tid=UA-87116324-1&_gid=784305039.1511206600&_r=1&z=1869323050",
+            "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-87116324-1&cid=729910133.1511206600&jid=1071527764&_gid=784305039.1511206600&gjid=549123560&_v=j66&z=1869323050",
+            "https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-87116324-1&cid=729910133.1511206600&jid=1071527764&_v=j66&z=1869323050"
+          ],
+          "score": 70,
+          "title": "Avoid doing redirects",
+          "id": "assetsRedirects"
+        }
+      ],
+      "B": [
+        {
+          "description": "Headings give your document a logical, easy to follow structure. Have you ever wondered how Wikipedia puts together its table of contents for each article? They use the logical heading structure for that, too! The H1 through H6 elements are unambiguous in telling screen readers, search engines and other technologies what the structure of your document is. https://www.marcozehe.de/2015/12/14/the-web-accessibility-basics/",
+          "weight": 4,
+          "tags": [
+            "accessibility",
+            "html"
+          ],
+          "advice": "The page is missing a h5 and has heading(s) with lower priority.",
+          "offending": [],
+          "score": 90,
+          "title": "Use heading tags to structure your page",
+          "id": "headings"
+        },
+        {
+          "description": "Section tags should have at least one heading element as a direct descendant.",
+          "weight": 0,
+          "tags": [
+            "accessibility",
+            "html"
+          ],
+          "advice": "The page is missing heading(s) within a section tag on the page. It happens 1 times.",
+          "offending": [],
+          "score": 90,
+          "title": "Use headings tags within section tags to better structure your page",
+          "id": "sections"
+        },
+        {
+          "description": "In the early days of Internet there where browsers that didn't support compressing (gzipping) text content. They do now. Make sure you compress HTML, JSON, Javacript, CSS and SVG. I will save bytes for the user; making the page load faster and use less bandwith. ",
+          "weight": 8,
+          "tags": [
+            "performance",
+            "server"
+          ],
+          "advice": "The page has 1 request(s) that are served uncompressed. You could save a lot of bytes by sending them compressed instead.",
+          "offending": [
+            "http://opensenselabs.com/"
+          ],
+          "score": 90,
+          "title": "Always compress text content",
+          "id": "compressAssets"
+        },
+        {
+          "description": "The critical rendering path is what the browser needs to do to start rendering the page. Every file requested inside of head element will postpone the rendering of the page, because the browser need to do the request. Avoid loading JavaScript synchronously inside of head (you should not need Javascript to render the page), request files from the same domain as the main document (to avoid DNS lookups) and inline CSS or server push for a really fast rendering and short rendering path.",
+          "weight": 10,
+          "tags": [
+            "performance"
+          ],
+          "advice": "Make sure that the server pushes your CSS resources for faster rendering. Avoid loading synchronously JavaScript inside of head, you shouldn't need JavaScript to render your page!The page has 0 render blocking CSS request(s) and 1 blocking JavaScript request(s) inside of head.",
+          "offending": [
+            "https://ajax.cloudflare.com/cdn-cgi/scripts/0e574bed/cloudflare-static/rocket.min.js"
+          ],
+          "score": 90,
+          "title": "Avoid slowing down the critical rendering path",
+          "id": "fastRender"
+        }
+      ],
+      "E": [
+        {
+          "description": "If you set private headers on content, that means that the content are specific for that user. Static content should be able to be cached & used by everyone, avoid setting the cache header to private.",
+          "weight": 5,
+          "tags": [
+            "performance",
+            "server"
+          ],
+          "advice": "The page has 6 request(s) with private headers. Make sure that the assets really should be private and only used by one user. Else make it cacheable for everyone.",
+          "offending": [
+            "https://fonts.googleapis.com/css?family=Roboto:300,400,500",
+            "https://fonts.googleapis.com/css?family=Montserrat:300,400,700",
+            "https://fonts.googleapis.com/css?family=Bitter",
+            "https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700",
+            "https://fonts.googleapis.com/css?family=PT+Serif",
+            "https://use.fontawesome.com/f479fb1064.css"
+          ],
+          "score": 40,
+          "title": "Don't use private headers on static content",
+          "id": "privateAssets"
+        }
+      ],
+      "D": [
+        {
+          "description": "Use a page description to make the page more relevant to search engines.",
+          "weight": 5,
+          "tags": [
+            "bestpractice"
+          ],
+          "advice": "The meta description is too long. It has 158 characters, the recommended max is 155",
+          "offending": [],
+          "score": 50,
+          "title": "Meta description",
+          "id": "metaDescription"
+        },
+        {
+          "description": "Avoid having too many large images on page. The images will not affect the first paint of the page but it will eat bandwith for the user.",
+          "weight": 5,
+          "tags": [
+            "performance",
+            "image"
+          ],
+          "advice": "The page total image size is 797.9 kB. It's really big. Are the page using the right format for the images? Are they compressed as good as they can? Make them smaller by using ImageOptim.",
+          "offending": [],
+          "score": 50,
+          "title": "Total image size shouldn't be too big",
+          "id": "imageSize"
+        }
+      ],
+      "F": [
+        {
+          "description": "How many fonts do you need on a page for the user to get the message? Fonts can slow down the rendering of content, try to avoid loading too many of them because worst case it can make the text invisible until they are loaded, best case they will flicker the text content when they arrive.",
+          "weight": 2,
+          "tags": [
+            "performance",
+            "font"
+          ],
+          "advice": "The page has 7 font requests. Do you really need them? What value does the fonts give the user?",
+          "offending": [
+            "https://fonts.gstatic.com/s/roboto/v18/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2",
+            "https://fonts.gstatic.com/s/montserrat/v12/IQHow_FEYlDC4Gzy_m8fcoWiMMZ7xLd792ULpGE4W_Y.woff2",
+            "https://fonts.gstatic.com/s/roboto/v18/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2",
+            "https://fonts.gstatic.com/s/roboto/v18/CWB0XYA8bzo0kSThX0UTuA.woff2",
+            "https://fonts.gstatic.com/s/montserrat/v12/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2",
+            "https://fonts.gstatic.com/s/montserrat/v12/IVeH6A3MiFyaSEiudUMXE8u2Q0OS-KeTAWjgkS85mDg.woff2",
+            "https://use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff2"
+          ],
+          "score": 30,
+          "title": "Avoid too many fonts",
+          "id": "fewFonts"
+        },
+        {
+          "description": "The easiest way to make your page fast is to avoid doing requests to the server. Setting a cache header on your server response will tell the browser that it doesn't need to downloand the asset again during the configured cache time! Always try to set a cache time if the content doesn't change for every request.",
+          "weight": 30,
+          "tags": [
+            "performance",
+            "server"
+          ],
+          "advice": "The page has 9 request(s) that are missing a cache time. Configure a cache time so the browser doesn't need to download them every time. It will save 361.6 kB the next access.",
+          "offending": [
+            "https://opensenselabs.com/cdn-cgi/pe/bag2?r[]=https%3A%2F%2Fopensenselabs.com%2Fcore%2Fassets%2Fvendor%2Fdomready%2Fready.min.js%3Fv%3D1.0.8&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_dxIVcwvQ00owLGoUGPTfRYXU-T5rnj8Xi0cXfb3Kn58.a23g1Nt4dtEYOj7bR-vTu7-T8VP13humZFBJNIYoEJo.js%3Fv%3D2.2.3&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_a5UiM5riCCx8GQk4IPly81KWzPcsHnVhzndmZfqUaTw.Gv8r_Bxx6CmHFGQYaai15VPi0AwYP6eqRFQTpmtn-Rc.js%3Fv%3D2.1.1&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_Hpe5jrMuKXrV4HSTMApXJsNBxraAgcHUrTjxkwWKqy8.-UuF-xCA7ba_NpIGThRxcI7T8a1fU-G5nwTajazUhyQ.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fcore%2Fmisc%2Fdrupal.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fstatic.addtoany.com%2Fmenu%2Fpage.js&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_ykLxvKp5rvcarVrf36wQkum3dKR3rl-G_-w1QumySTw.djYiKZ3lFGcF7cVSE5Ey8bmg4Vg4jzPCY0-DGepUVhA.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_ILBo1Tem8JjMEYfGzuugbThKxy0fvPnkdn9LT31E47s.XfBd99B6gO9TldRrpVEFycLk4iPhBX7-tM-r6xUaGJ0.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_HtAPNpzOA6_7Opcq5y-f-In2b_3tvKdEaP5XRdUrRv8.orE03LSc9KVys7WmCWaOa5LauIvfUpJeaiKbggQBB-8.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fthemes%2Fzurb_foundation%2Fjs%2Ffoundation_init.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_q99fsgffpLlGLe8O4cbgr0QgpYQDzj2p7qc7CgJ2ERE.tB_IVQ3KA9g7Rdo8J-6xYeRkgoC6ZJuKIuvrvBQXHdQ.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_cEsdQyWdiDRFAM96frCFynr64SohHEbM9Knix9aif4w.3KQHXAWaKTVNul2A0P-XIj9t1ClFg_zzucNMxAB_izk.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fthemes%2Fopensenselabs%2Fjs%2Fclassie.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fthemes%2Fopensenselabs%2Fjs%2FSTARTER.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fthemes%2Fopensenselabs%2Fjs%2Fstickkit.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fuse.fontawesome.com%2Ff479fb1064.js",
+            "https://opensenselabs.com/cdn-cgi/pe/bag2?r[]=https%3A%2F%2Fwww.google-analytics.com%2Fanalytics.js",
+            "https://opensenselabs.com/cdn-cgi/pe/bag2?r[]=https%3A%2F%2Fv2.zopim.com%2F%3F4naEx29rUGwTN2n66mQ63thHUmlnpQ7l",
+            "https://opensenselabs.com/cdn-cgi/pe/bag2?r[]=https%3A%2F%2Fopensenselabs.com%2Fthemes%2Fzurb_foundation%2Fjs%2Falert_close.js%3Fv%3D8.2.7&r[]=https%3A%2F%2Fopensenselabs.com%2Fsites%2Fdefault%2Ffiles%2Fjs%2Foptimized%2Fjs_nywRN98BlaSHrpeAHOwlTQCGFXBgZfm1PwFQmjcJxLY.gm6-ukRq-z9E2GooagUHHnWhMpsVSZvlrff3Z5xnWXI.js%3Fv%3D8.2.7",
+            "https://use.fontawesome.com/f479fb1064.css",
+            "https://de24.zopim.com/s/W/ws/8ieShHnc0ULoHsu8/c/1511206600471",
+            "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-87116324-1&cid=729910133.1511206600&jid=1071527764&_gid=784305039.1511206600&gjid=549123560&_v=j66&z=1869323050",
+            "https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-87116324-1&cid=729910133.1511206600&jid=1071527764&_v=j66&z=1869323050",
+            "https://www.google.ae/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-87116324-1&cid=729910133.1511206600&jid=1071527764&_v=j66&z=1869323050&slf_rd=1&random=3747331389"
+          ],
+          "score": 10,
+          "title": "Avoid extra requests by setting cache headers",
+          "id": "cacheHeaders"
+        },
+        {
+          "description": "It's easy to scale images in the browser and make sure they look good in different devices, however that is bad for performance! Scaling images in the browser takes extra CPU time and will hurt performance on mobile. And the user will download download extra kilobytes (sometime megabytes) of data that could be avoided. Don't do that, make sure you create multiple version of the same image serverside and serve the appropriate one.",
+          "weight": 5,
+          "tags": [
+            "performance",
+            "image"
+          ],
+          "advice": "The page has 11 image(s) that are scaled more than 100 pixels. It would be better if those images are sent so the browser don't need to scale them.",
+          "offending": [
+            "https://opensenselabs.com/themes/opensenselabs/images/homebanner.jpg",
+            "https://opensenselabs.com/themes/opensenselabs/images/iit.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/techtud.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/tuv.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/globe.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/services.jpg",
+            "https://opensenselabs.com/themes/opensenselabs/images/launcher.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/meter.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/getintouch.jpg",
+            "https://opensenselabs.com/themes/opensenselabs/images/explorebanner.png",
+            "https://opensenselabs.com/themes/opensenselabs/images/map-front.jpg"
+          ],
+          "score": 0,
+          "title": "Don't scale images in the browser",
+          "id": "avoidScalingImages"
+        }
+      ]
+    },
+    "timings": {
+      "timeToLastByte": 219,
+      "redirects": 4,
+      "timeToFirstByte": 199,
+      "redirectsTime": 347,
+      "timeBackend": 23
+    },
+    "video": "https://ipfs.io/ipfs/QmQdVUbR1i455rcPGHpppxznZ2MHnx6Y4N9P8UwQCyaVGW",
+    "performance": {
+      "grade": "C",
+      "score": 69
+    },
+    "requests": 97
+  },
+  "general": {
+    "exp_hdr": "Sun, 19 Nov 1978 05:00:00 GMT",
+    "documentTitle": "Drupal development company | OpenSense Labs",
+    "dv": "d8",
+    "https": true,
+    "responsive": false,
+    "amp": false,
+    "metaDescription": "OpenSense Labs is a Drupal web development company. We are experts in Drupal 8 consulting, migration, performance optimization, design & development services.",
+    "sitemap": false
+  }
+}
+
